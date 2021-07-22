@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * module.xml
+ *
+ * @license  Open Source
+ * @link     https://www.codilar.com
+ * @copyright Copyright © 2021 Codilar Technologies Pvt. Ltd.. All rights reserved
+ *
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Codilar_Shipment" >
+        <sequence>
+            <module name="Magento_Catalog" />
+        </sequence>
+    </module>
+</config>
