@@ -1,0 +1,23 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+<!--
+/**
+* config.xml
+*
+* @license  Open Source
+* @link     https://www.codilar.com
+* @copyright Copyright © 2021 Codilar Technologies Pvt. Ltd.. All rights reserved
+*/
+-->
+    <default>
+        <carriers>
+             <custom>
+                 <active>1</active>
+                 <model>Codilar\Shipment\Model\Carrier\Custom</model>
+                 <name>Codilar Shipping</name>
+                 <price>15.00</price>
+                 <title>Custom Shipping</title>
+                 <type>I</type>
+             </custom>
+        </carriers>
+    </default>
+</config>
